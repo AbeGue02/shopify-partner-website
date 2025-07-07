@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Add a class for portfolio images to ensure consistent height and object-fit */
+.portfolio-image {
+  height: 220px; /* Set your desired pixel height */
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
