@@ -1,19 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white text-gray-900 font-sans">
-      <header className="bg-[#1c1c1e] text-white py-6 px-8 shadow-md">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">AG Shopify Solutions</h1>
-          <nav className="space-x-6 text-sm">
-            <Link href="#services" className="hover:underline">Services</Link>
-            <Link href="#portfolio" className="hover:underline">Portfolio</Link>
-            <Link href="#contact" className="hover:underline">Contact</Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-1 px-8 py-16 bg-gradient-to-br from-white to-gray-100">
         <section className="max-w-5xl mx-auto text-center mb-20">
