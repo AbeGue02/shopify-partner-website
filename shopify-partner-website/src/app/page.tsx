@@ -15,7 +15,7 @@ export default function Home() {
             Custom development, theme optimization, and app integrations to grow your business.
           </p>
           <Link
-            href="#contact"
+            href="/contact"
             className="inline-block bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-gray-800 transition"
           >
             Get a Free Consultation
