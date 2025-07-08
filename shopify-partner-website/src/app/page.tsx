@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -68,18 +69,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer id="contact" className="bg-[#1c1c1e] text-white py-10 px-8">
-        <div className="max-w-5xl mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">Let's Work Together</h3>
-          <p className="mb-6 text-gray-300">Ready to grow your Shopify store? Contact us today for a free consultation.</p>
-          <a
-            href="mailto:hello@shopifypartner.dev"
-            className="inline-block bg-white text-black font-medium py-3 px-6 rounded-md hover:bg-gray-200 transition"
-          >
-            Contact Us
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

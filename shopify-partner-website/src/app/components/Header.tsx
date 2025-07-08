@@ -44,7 +44,7 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="space-x-6 text-sm hidden sm:block">
           <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/services" className="hover:underline font-bold">Services</Link>
+          <Link href="/services" className="hover:underline">Services</Link>
           <Link href="/#portfolio" className="hover:underline">Portfolio</Link>
           <Link href="/#contact" className="hover:underline">Contact</Link>
         </nav>
