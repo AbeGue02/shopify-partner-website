@@ -37,16 +37,16 @@ export default function Header() {
               <Link href="/" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Home</Link>
               <Link href="/services" className="hover:underline font-bold" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Services</Link>
               <Link href="/#portfolio" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Portfolio</Link>
-              <Link href="/#contact" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Contact</Link>
+              <Link href="/contact" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Contact</Link>
             </nav>
           </div>
         </div>
         {/* Desktop Nav */}
         <nav className="space-x-6 text-sm hidden sm:block">
           <Link href="/" className="hover:underline">Home</Link>
-          <Link href="/services" className="hover:underline">Services</Link>
+          <Link href="/services" className="hover:underline font-bold">Services</Link>
           <Link href="/#portfolio" className="hover:underline">Portfolio</Link>
-          <Link href="/#contact" className="hover:underline">Contact</Link>
+          <Link href="/contact" className="hover:underline">Contact</Link>
         </nav>
       </div>
     </header>
