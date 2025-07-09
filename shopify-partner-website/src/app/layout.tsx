@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AG Shopify Solutions",
+  title: "AG Studio | Shopify Partner",
   description: "Elevate your Shopify store with custom development, theme optimization, and app integrations.",
 };
 

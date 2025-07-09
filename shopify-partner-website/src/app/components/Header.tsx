@@ -11,7 +11,7 @@ export default function Header({ withSpacer = true }: { withSpacer?: boolean }) 
           <div className="hidden sm:flex items-center gap-3 w-1/3">
             <Link href="/" className="flex items-center gap-2 hover:underline focus:outline-none focus:ring-2 focus:ring-white rounded">
               <Image src="/logo.png" alt="Logo" width={40} height={40} priority className="block" />
-              <span className="text-2xl font-bold">AG Shopify Solutions</span>
+              <span className="text-2xl font-bold">AG Studio | Shopify Partner</span>
             </Link>
           </div>
           {/* Mobile: Centered Logo */}
