@@ -17,6 +17,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AG Studio | Shopify Partner",
   description: "Elevate your Shopify store with custom development, theme optimization, and app integrations.",
+  openGraph: {
+    title: "AG Studio | Shopify Partner",
+    description: "Elevate your Shopify store with custom development, theme optimization, and app integrations.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "AG Studio Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
