@@ -55,7 +55,7 @@ export default function Services() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-4 max-w-2xl mx-auto">
-            <strong>Disclaimer:</strong> The prices listed above are only estimates. Actual project costs will be discussed and finalized with you personally during a free consultation, based on your specific needs and requirements.
+            <strong>Disclaimer:</strong> The prices listed above are only estimates. Actual project costs will be discussed and finalized with you personally during a free consultation, based on your specific needs and requirements. All prices are in USD and may vary based on project complexity, scope, and additional features required.
           </p>
           <div className="flex flex-col md:flex-row gap-8 justify-center items-start mt-8 mb-12">
             <div className="max-w-md w-full">
