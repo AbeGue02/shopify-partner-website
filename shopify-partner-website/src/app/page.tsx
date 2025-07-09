@@ -45,7 +45,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-gray-800 transition"
+            className="inline-block bg-[#0288d1] text-white font-medium py-3 px-6 rounded-md hover:bg-[#0277bd] transition"
           >
             Get a Free Consultation
           </Link>

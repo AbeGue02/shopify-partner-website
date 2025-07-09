@@ -84,7 +84,9 @@ export default async function PortfolioDetail({ params }: { params: Promise<{ sl
           <div className="text-gray-700 mb-6">
             {renderDescription(project.description)}
           </div>
-          <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-block bg-black text-white font-medium py-3 px-6 rounded-md hover:bg-gray-800 transition">Visit Website</a>
+          <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#0288d1] text-white font-medium py-3 px-6 rounded-md hover:bg-[#0277bd] transition">
+            Visit Website
+          </a>
         </div>
       </main>
       <Footer />

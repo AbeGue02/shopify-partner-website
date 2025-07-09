@@ -43,6 +43,11 @@ export default function About() {
             <li>I am an avid gamer and enjoy playing video games on weekends.</li>
           </ul>
         </section>
+        <div className="text-center">
+          <a href="https://www.linkedin.com/in/abrahamdguerrero/" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#0288d1] text-white font-medium py-3 px-6 rounded-md hover:bg-[#0277bd] transition">
+            Learn More About Me
+          </a>
+        </div>
       </main>
       <Footer />
     </div>

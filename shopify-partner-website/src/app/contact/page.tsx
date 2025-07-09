@@ -15,6 +15,24 @@ export default function Contact() {
           {/* Calendly Widget */}
           <CalendlyWidget />
         </section>
+        <div className="flex justify-center gap-4 mt-8">
+          <a
+            href="https://www.linkedin.com/in/abrahamdguerrero/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="LinkedIn" className="w-10 h-10 hover:opacity-80 transition" />
+          </a>
+          <a
+            href="https://www.instagram.com/abraham_dgf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram" className="w-10 h-10 hover:opacity-80 transition" />
+          </a>
+        </div>
       </main>
       <Footer />
     </div>

@@ -90,6 +90,11 @@ export default function Services() {
               </li>
             </ul>
           </div>
+          <div className="mt-8">
+            <button className="bg-[#0288d1] text-white font-medium py-3 px-6 rounded-md hover:bg-[#0277bd] transition">
+              Learn More
+            </button>
+          </div>
         </section>
       </main>
       <Footer />
