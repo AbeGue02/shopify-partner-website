@@ -45,6 +45,7 @@ export default function Header({ withSpacer = true }: { withSpacer?: boolean }) 
                 <Link href="/services" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Services</Link>
                 <Link href="/portfolio" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Portfolio</Link>
                 <Link href="/contact" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>Contact</Link>
+                <Link href="/about" className="hover:underline" onClick={() => { const el = document.getElementById('menu-toggle') as HTMLInputElement | null; if (el) el.checked = false; }}>About</Link>
               </nav>
             </div>
           </div>
