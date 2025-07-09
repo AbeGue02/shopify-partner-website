@@ -57,6 +57,39 @@ export default function Services() {
           <p className="text-xs text-gray-500 mt-4 max-w-2xl mx-auto">
             <strong>Disclaimer:</strong> The prices listed above are only estimates. Actual project costs will be discussed and finalized with you personally during a free consultation, based on your specific needs and requirements.
           </p>
+          <div className="flex flex-col md:flex-row gap-8 justify-center items-start mt-8 mb-12">
+            <div className="max-w-md w-full">
+              <h3 className="text-lg font-semibold mb-2">What is a Beginner-Friendly Client?</h3>
+              <p className="text-gray-600">A beginner-friendly client is typically a new or small business owner who is just starting out with Shopify or eCommerce. They may have a limited product catalog, simpler requirements, and are looking for cost-effective solutions to launch or grow their online presence. You automatically qualify as a beginner-friendly client if you do not have a Shopify store.</p>
+            </div>
+            <div className="max-w-md w-full">
+              <h3 className="text-lg font-semibold mb-2">What is an Established Client?</h3>
+              <p className="text-gray-600">An established client is a business with an existing online presence, larger product catalog, or more complex operational needs. They often require advanced customizations, integrations, and scalable solutions to support ongoing growth and higher sales volume.</p>
+            </div>
+          </div>
+          <div className="mt-12 max-w-3xl mx-auto">
+            <h3 className="text-xl font-bold mb-4">Service Descriptions</h3>
+            <ul className="space-y-6 text-left">
+              <li>
+                <span className="font-semibold">Store Setup:</span> Complete configuration of your Shopify store, including payment gateways, shipping, taxes, and essential settings to get your business online quickly and correctly.
+              </li>
+              <li>
+                <span className="font-semibold">Theme Customization:</span> Tailoring the look and feel of your store by modifying an existing theme to match your brand, improve user experience, and add custom features as needed.
+              </li>
+              <li>
+                <span className="font-semibold">Full Theme Development:</span> Designing and building a completely custom Shopify theme from scratch, optimized for your unique business needs, branding, and conversion goals.
+              </li>
+              <li>
+                <span className="font-semibold">Headless Storefront:</span> Creating a decoupled front-end (using frameworks like Next.js) that communicates with Shopify via API, enabling advanced performance, design flexibility, and integration with other platforms.
+              </li>
+              <li>
+                <span className="font-semibold">API/Automation Work:</span> Building custom integrations, automations, or workflows using Shopify’s API or third-party services to streamline operations, sync data, or automate repetitive tasks.
+              </li>
+              <li>
+                <span className="font-semibold">Monthly Retainer:</span> Ongoing support, maintenance, and development services for your Shopify store, billed monthly, to ensure your business continues to grow and operate smoothly.
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
       <Footer />
