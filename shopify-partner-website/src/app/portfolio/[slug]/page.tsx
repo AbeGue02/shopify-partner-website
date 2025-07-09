@@ -59,8 +59,10 @@ const portfolioData: Record<string, { title: string; img: string; description: s
   }
 };
 
-export default function PortfolioDetail({ params }: { params: { slug: string } }) {
-  const project = portfolioData[params.slug];
+// Remove async, use standard synchronous params for Next.js app directory
+export default async function PortfolioDetail({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const project = portfolioData[slug];
   if (!project) return notFound();
 
   function renderDescription(desc: string) {

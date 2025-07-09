@@ -8,12 +8,12 @@ export default function About() {
       <main className="flex-1 px-8 py-16 bg-gradient-to-br from-white to-gray-100">
         <section className="max-w-3xl mx-auto mb-16 text-center">
           <h1 className="text-4xl font-bold mb-4">About Abraham</h1>
-          <p className="text-lg text-gray-700 mb-8">Welcome! I'm Abraham, a Shopify expert passionate about helping businesses thrive online. Here you can learn more about my background, values, and approach to eCommerce success.</p>
+          <p className="text-lg text-gray-700 mb-8">Welcome! I&apos;m Abraham, a Shopify expert passionate about helping businesses thrive online. Here you can learn more about my background, values, and approach to eCommerce success.</p>
         </section>
         <section className="max-w-3xl mx-auto mb-16">
           <h2 className="text-2xl font-semibold mb-2">My Story</h2>
           <p className="text-gray-700 mb-6">
-            I am a Computer Science student with a passion for eCommerce and technology. My journey into the world of Shopify began when I realized the potential of online businesses to reach global audiences. Since then, I've dedicated myself to mastering Shopify development and helping merchants succeed. Starting with my family's business
+            I am a Computer Science student with a passion for eCommerce and technology. My journey into the world of Shopify began when I realized the potential of online businesses to reach global audiences. Since then, I&apos;ve dedicated myself to mastering Shopify development and helping merchants succeed. Starting with my family&apos;s business
           </p>
         </section>
         <section className="max-w-3xl mx-auto mb-16">

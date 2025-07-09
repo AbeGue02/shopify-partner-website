@@ -1,9 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ServiceCard from "./components/ServiceCard";
 import WhatsappButton from "./components/WhatsappButton";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,10 +14,13 @@ export default function Home() {
         {/* Hero Logo and Promo Text */}
         <section className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-8 mt-12 mb-16 px-4">
           <div className="flex-shrink-0 flex items-center justify-center">
-            <img
+            <Image
               src="/logo.png"
               alt="AG Shopify Solutions Logo"
+              width={224}
+              height={224}
               className="w-40 h-40 sm:w-56 sm:h-56 object-contain"
+              priority
             />
           </div>
           <div className="text-center sm:text-left">
