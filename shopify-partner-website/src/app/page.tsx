@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ServiceCard from "./components/ServiceCard";
+import WhatsappButton from "./components/WhatsappButton";
 
 export default function Home() {
   return (
@@ -120,6 +121,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <WhatsappButton />
     </div>
   );
 }
